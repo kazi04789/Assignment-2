@@ -327,4 +327,46 @@ box-sizing: border-box;
 }
 
 /*---footer design--*/
+.footer-section{
+  margin-top: 80px;
+}
+.grid-display{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 130px;
+
+}
+.grid-display p{
+  color: grey;
+  margin-top: 20px;
+}
+.features{
+  display: flex;
+  gap: 100px;
+  margin-top: -40px;
+}
+.features ul li{
+  list-style: none;
+ margin-top: 30px;
+
+}
+.features a {
+     text-decoration: none;
+     
+      color: grey;
+}
+
+.social-media {
+ display: flex;
+ gap: 30px;
+ justify-items: baseline;
+
+}
+
+.twitter{
+  height: 20px;
+  width: auto;
+  margin-top: 8px;
+ 
+}
 
