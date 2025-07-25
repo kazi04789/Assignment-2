@@ -114,3 +114,110 @@ box-sizing: border-box;
   flex: 1;
  
 }
+.plants {
+  padding: 50px;
+  text-align: center;
+}
+.plants h2{
+    font-size:50px;
+    font-weight: bold;
+}
+.plants p{
+    margin: 20px 180px;
+    text-align: center;
+    color: grey;
+}
+.plant-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    max-width: 270px;
+   
+     max-width: 100%;
+    
+}
+.plant-card img{
+    width: 100%;
+}
+.plant-card h2{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+     font-weight: normal;
+     
+
+}
+.plant-card{
+    max-width: 100%;
+     border: 1px solid rgb(227, 227, 227);
+}
+
+.plant-card p{
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+     margin-bottom: 10px;
+}
+.cart-btn{
+    background-color: #E95A08;
+    color: #F5F8FF;
+    font-size: 18px;
+    width: 100%;
+    border: none;
+    padding: 12px 0;
+   
+
+}
+.cart-btn:hover{
+    background-color: black;
+}
+/*---Flower lover section--*/
+.lover-img {
+  position: relative;
+  max-width: 100%; 
+}
+
+.bg-img {
+   width: 100%; 
+  display: block; 
+}
+
+.overlay-img {
+  position: absolute;
+  top: -80px;       
+  right: -70px;      
+  width: 40%;  
+  height: auto;
+}
+.lover-section{
+    display: flex;
+    margin-top: 150px;
+    gap: 60px;
+}
+.lover-text{
+    flex: 1;
+    max-width: 50%;
+}
+.lover-text h2{
+   font-size: 50px;
+}
+.lover-text ul li{
+    margin-top: 50px;
+   
+    font-size: 22px;
+}
+/*---section animation--*/
+ @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-animation {
+  animation: spin 3s linear infinite;
+}
+/*--deal section--*/
+
