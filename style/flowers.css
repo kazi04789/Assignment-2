@@ -369,4 +369,166 @@ box-sizing: border-box;
   margin-top: 8px;
  
 }
+/*----Responsive media query---*/
+@media screen and (max-width:576px){
+    .nav-list li:nth-child(1),
+    .nav-list li:nth-child(2),
+    .nav-list li:nth-child(3) {
+        display: none;
+        
+    }
+    .nav-list li:nth-child(4){
+        margin-right: 10px;
+    }
 
+    .logo img{
+        width: 60%;
+    }
+   .container{
+    margin-left: 10px ;
+    margin-right:auto;
+    margin-top: 10px;
+   }
+
+  .hero{
+    flex-direction: column-reverse;
+  
+  }
+  .hero-img{
+    margin: 0;
+  }
+  .hero-text{
+    max-width: 100%;
+      margin: 5px;
+  }
+  .hero-text h1{
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.hero-text p,.deals p{
+    margin: 0;
+    font-size: 14px;
+}
+/* .................................plants section....................... */
+
+.plant-grid{
+    
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    
+    margin-right: 10px;
+  
+    
+}
+
+.plants h2,.deals h2
+{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.plants p{
+    font-size: 14px;
+    margin: 0 ;
+    text-align: center;
+
+}
+
+/* ...............................overlay section........................... */
+.overlay-img,.lover-text br{
+    display: none;
+}
+.lover-section,.features{
+    flex-direction: column;
+   
+}
+
+.lover-img,.ana-plant,.bloom-plant{
+    margin-right: 10px;
+    margin-top: 10px; 
+ 
+}
+.lover-text{
+    max-width: 100%; 
+    margin-top: -20px;
+
+}
+.lover-text h2{
+  font-size: 28px;
+  
+}
+
+  .lover-text ul li{
+    font-size: 14px;
+    margin: 10px;
+  }
+
+  /* ................................latest deal section .......................*/
+  .latest-deal{
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .deals h2{
+    margin-top: 50px;
+  }
+  .left-side img{
+    margin-top: 10px;
+  }
+  .zabo-plant-text h1{
+  font-size: 18px;
+}
+.zabo-plant{
+  margin-top: -10px;
+  margin-right: 10px;
+}
+
+/* ......................................colorful brance section design................. */
+.colorful-brance{
+ margin-top: 15px;
+}
+ .colorful-brance h1 {
+  font-size: 20px ;
+  
+ }
+
+ .subscribe-box input{
+  width: 150px;
+  height: 35px;
+  font-size: 12px;
+  border-radius: 0;
+  border: none;
+ }
+ .subscribe-button{
+  width: 70px;
+  height: 35px;
+  font-size: 12px;
+
+ }
+.colorful-brance img{
+  height: 200px;
+}
+   .subscribe-box {
+    max-width: 80%;
+    
+   }
+/* ..............................................footer section design................. */
+
+.grid-display{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 40px;
+
+}
+/* .grid-display{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 40px;
+
+} */
+.features{
+  gap: 8px;
+}
+.footer-section{
+  margin-top: 30px;
+}
+}
